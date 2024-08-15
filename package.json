@@ -13,7 +13,8 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "gh-pages": "^5.0.0"  // Add this line if gh-pages is not already in your dependencies
   },
   "scripts": {
     "start": "react-scripts start",
