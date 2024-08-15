@@ -1,0 +1,24 @@
+/* src/HomePage.css */
+
+.qr-code-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ddd; /* Border around the QR code */
+    padding: 20px; /* Padding around the QR code */
+    background-color: #f9f9f9; /* Background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for a subtle 3D effect */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 20px; /* Margin at the top */
+  }
+  
+  .qr-code-container canvas {
+    border-radius: 8px; /* Rounded corners for the canvas */
+    border: 2px solid #000; /* Border around the QR code */
+  }
+  
+  /* Optional: Center the download button */
+  .qr-code-container .btn-secondary {
+    margin-top: 10px;
+  }
+  
